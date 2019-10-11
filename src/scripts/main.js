@@ -32,7 +32,7 @@ const pet = {
         console.log("PRRRRRR :)")
     },
     play: function (toy) {
-        if ("fuzzy" in toy) {
+        if (toy.includes("fuzzy")) {
             this.favoriteToys.push(toy)
         }
     },
